@@ -1,4 +1,4 @@
-# Bài tập 2: "Bản đồ dẫn đường" với Correlation ID & Tracing
+gi# Bài tập 2: "Bản đồ dẫn đường" với Correlation ID & Tracing
 
 Hệ thống đặt vé xem phim theo mô hình **Choreography Saga**, gồm 3 Spring Boot service (Java 17) giao tiếp qua **Kafka**. Mỗi giao dịch mang **một Correlation ID duy nhất**, được truyền qua **header** của tin nhắn Kafka.
 
